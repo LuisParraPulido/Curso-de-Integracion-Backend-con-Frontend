@@ -54,6 +54,9 @@ module.exports = {
         enforce: 'pre',
         use: {
           loader: 'eslint-loader',
+          options: {
+            emitwarning: true
+          }
         },
       },
       {
